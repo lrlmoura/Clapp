@@ -15,8 +15,9 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('./img/fundo1.jpg');
+  /*background-image: url('./img/fundo1.jpg');*/
   background-size: cover;
+  background-color: #F24405;
   min-height: 100%;
 }
 
@@ -32,22 +33,14 @@ body, html {
   min-height: 400px;
 }
 
-.banner{
-  min-height:600px;
-  background-color: antiquewhite;
+.logo{
+  width: 50%;
 }
-
 .icone{
-  margin-top:-.3em;
-  min-height: 2.5em;
+  max-height: 2em;
   width: auto;
-}
 
-.func{
-  position: relative;
-  width: -webkit-fill-available;
 }
-
 .color-1 {
   color:#F5336C ;
 }
